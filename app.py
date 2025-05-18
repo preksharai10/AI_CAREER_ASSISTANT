@@ -5,7 +5,7 @@ from fpdf import FPDF
 st.set_page_config(page_title="GenAI Career Assistant", layout="centered")
 st.title(" AI-Powered Career Assistant")
 
-FASTAPI_URL = "http://localhost:8000"
+FASTAPI_URL = "https://ai-career-assistant-2v1o.onrender.com"
 
 # Step 1: Select Career Goal
 st.subheader("Step 1: Choose Your Career Goal")
